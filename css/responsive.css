@@ -1,0 +1,651 @@
+/*============ Custom Media Responsive CSS ============*/
+@media screen and (min-width:1300px){
+
+.container {
+    max-width: 1200px;
+}
+	
+}
+@media screen and (max-width:1400px) {
+#slider.slider-style3 .quote-form2{
+	top: 58%
+}
+.why-choose-us3 .choose-us .bg-img {
+	width: 42% !important;
+	left: 5% !important
+}
+.slider-style2 .carousel-inner > .item {
+	height: 710px
+}
+.carousel-inner > .item > a > img, 
+.carousel-inner > .item > img {
+    height: 100%;
+    width: auto;
+}
+}
+@media screen and (max-width: 1350px){
+.box-layout {
+	width: 100%
+}
+}
+@media screen and (max-width:1240px) {
+#map {
+	height: 609px;
+}
+}
+@media screen and (max-width:1200px) {
+.navbar-expand-lg .navbar-nav > li {
+	padding: 35px 14px;
+}
+.header-style2 .navbar-expand-lg .navbar-nav > li	{
+	padding: 15px
+}
+.header-style2 .fixed-header .navbar-expand-lg .navbar-nav > li{
+	padding: 20px 15px
+}
+.main-header-3 .navbar-expand-lg .navbar-nav > li {
+	padding: 30px 12px;
+}
+.carousel-inner .item img{
+	height: auto
+}
+.project-item2-hover {
+	padding: 30px 25px;
+}
+.project-item2 .title {
+	font-size: 15px
+}
+.why-choose-us3 .choose-us .bg-img {
+	width: 55%;
+	left: -2%;
+}
+.projects2 .owl-controls{
+	display: none
+}
+.member-img-hover {
+	padding: 30px
+}
+.process-item .title{
+	font-size: 18px
+}
+.navbar-brand > img {
+	width: 140px;
+	top: 25px
+}
+.process-item {
+    padding: 50px 30px;
+}
+}
+@media screen and (max-width:1050px) {
+.header-style2 .cart-nav li {
+    padding: 2px 0;
+}
+.header-style2 .nav.navbar-right::before {
+    border: 25px solid;
+    left: -50px;
+}
+.slider-caption .slider-title {
+	font-size: 30px;
+}
+.brochure-info a{
+	font-size: 11px
+}
+.member-img-hover .social-icon{
+	padding-top: 10px
+}
+.text-area{
+	display: inherit
+}
+.service-sidebar .other-service li a {
+    line-height: 55px;
+    font-size: 12px;
+	padding: 0 12px
+}
+.btn{
+	font-size: 11px
+}
+.choose-us-right {
+	width: 370px
+}
+.slider-style2 .carousel-caption {
+    top: 55%;
+}
+.slider-caption {
+    width: 75%
+}
+.slider-style1 .carousel-inner > .item {
+    height: 580px
+}
+.slider-style2 .carousel-inner > .item  {
+	height: 670px
+}
+.about-us-item {
+	padding: 30px 15px
+}
+}
+@media screen and (min-width:992px) {
+	.navbar-brand{
+	width: auto;
+	padding: 0
+}
+#header.fixed-header {
+    animation-duration: 1s;
+    animation-name: menu-sticky;
+    animation-timing-function: ease-out;
+    left: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100
+}
+#header.fixed-header {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2)
+}
+#header.fixed-header .header-top{
+    display: none
+}
+.fixed-header .navbar-expand-lg .navbar-nav > li {
+	padding-top: 25px;
+    padding-bottom: 25px;
+}
+.navbar-expand-lg .navbar-nav > li.nav-item.dropdown > .dropdown-menu,
+.navbar-expand-lg .dropdown-menu .dropdown > .dropdown-menu {
+	visibility: hidden;
+	top: 110%;
+	opacity: 0;
+	display: block;
+	margin: -1px 0 0;
+}
+.navbar-expand-lg .navbar-nav > li.nav-item.dropdown:hover > .dropdown-menu,
+.navbar-expand-lg .dropdown-menu .dropdown:hover > .dropdown-menu {
+	top: 100%;
+	visibility: visible;
+	opacity: 1;
+	-moz-transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	background-color: var(--primary-theme-color);
+	border: none;
+	border-radius: 0
+}
+	.navbar-expand-lg .dropdown-menu .dropdown .dropdown-menu{
+		left: 100%;
+	}
+	.navbar-expand-lg .dropdown-menu .dropdown:hover > .dropdown-menu {
+		top:0 !important
+	}
+	
+	.main-header-2 #navbarSupportedContent > ul{
+		background-color: var(--primary-theme-color);
+		position: relative
+	}
+	.main-header-2 #navbarSupportedContent > ul.navbar-nav::before {
+	position: absolute;
+	content: "";
+	border: 32px solid;
+	left: -64px;
+	border-color: transparent var(--primary-theme-color) var(--primary-theme-color) transparent !important;
+}
+
+.main-header-3 .navbar-expand-lg .navbar-nav > li > a{
+	color: var(--white-theme-color) !important
+}
+	/*====================================================================
+5.2 Header Style 2 section css
+====================================================================*/
+
+.fixed-header .main-header-2 .navbar-brand > img {
+	width: 115px
+}
+.fixed-header .main-header-2 .navbar-expand-lg .navbar-nav > li {
+	padding: 18px 20px
+}
+.fixed-header .main-header-2 .cart-nav li {
+	padding: 7px 0
+}
+.main-header-2 header{
+	position: absolute;
+	left: 0;
+	top: 0
+}
+.main-header-2 .navbar-brand::after{
+	background: none
+}
+.main-header-2 .navbar-brand > img {
+	top: 0px
+}
+.main-header-2 .navbar-brand img{
+	width: 130px
+}
+.main-header-2 .navbar-expand-lg .navbar-nav > li {
+	padding: 18px 20px
+}
+.main-header-2 .cart-nav li {
+	padding: 5px 0
+}
+.main-header-2 .cart-nav {
+	padding: 3px 5px;
+}
+.fixed-header .main-header-2 .cart-nav {
+	padding: 1px 5px;
+}
+.main-header-2 .nav.navbar-right{
+	position: relative;
+	margin-right: 0
+}
+.main-header-2 .nav.navbar-right::before {
+	position: absolute;
+	content: "";
+	border: 28px solid;
+	left: -56px
+}
+.main-header-2 .search-from-menu .src-close {
+	top: 12px
+}
+.main-header-2 .fixed-header .navbar-expand-lg{
+	margin: 0
+}
+.fixed-header .main-header-3{
+	background-color: var(--secondary-theme-color)
+}
+.fixed-header .search-from-menu{
+	padding: 12px 0
+}
+/*========== Sub Dropdown Menu ===========*/
+.nav .dropdown-menu .dropdown > ul.dropdown-menu {
+	left: 100%;
+}
+.nav .dropdown-menu .dropdown i {
+  float: right;
+  font-size: 11px;
+  position: absolute;
+  right: 20px;
+  top: 13px;
+}
+.nav .dropdown-menu .dropdown:hover > ul.dropdown-menu {
+	margin-top: 0px;
+	top: 0;
+}
+
+}
+@media screen and (max-width:991px) {
+	
+	.dropdown-menu.show{
+		border: none
+	}
+	.dropdown-menu.show li.active .dropdown-menu{
+		display: block;
+		border: none;
+		margin-left: 20px;
+	}
+	a.dropdown-item:hover{
+		background-color: transparent;
+		color: var(--primary-theme-color) !important
+	}
+	.d-flex{
+		display: inherit !important
+	}
+	.mt-md-30{
+		margin-top: 30px !important
+	}
+	.mb-md-30{
+		margin-bottom: 30px !important
+	}
+	.pt-md-70,
+	.py-md-70{
+		padding-top: 70px
+	}{
+		padding-top: 70px
+	}
+	.pb-md-70,
+	.py-md-70{
+		padding-top: 70px
+	}{
+		padding-bottom: 70px
+	}
+	.brochure-info a {
+	font-size: 14px;
+}
+.video-area {
+	margin-top: 50px
+}
+#header {
+	position: static
+}
+.main-header-3 .navbar-expand-lg .navbar-nav > li,
+.header-style2 .navbar-expand-lg .navbar-nav > li {
+	padding: 0 15px
+}
+#slider {
+	margin-top: 0
+}
+.page-banner {
+    margin-top: 0;
+}
+.slider-style3 .slider-title {
+	font-size: 20px
+}
+.carousel-inner .item img{
+	height: 100%;
+	width: auto
+}
+.main-header-3{
+	background: rgba(0,0,0,0.75)
+}
+.navbar-brand > img {
+	top: 8px
+}
+.dropdown .dropdown-menu {
+	position: static;
+	background: transparent !important;
+	width: 100%;
+	float:none
+}
+[class*="main-header"] .navbar-header {
+	padding: 5px 0
+}
+.d-flex{
+	display: inherit
+}
+.header-top{
+	display: none
+}
+
+[class*="main-header"] .collapse.navbar-collapse {
+	float: none
+}
+.navbar-expand-lg .navbar-nav > li {
+	padding: 0 20px
+}
+.cart-nav, .navbar-brand::after{
+	display: none
+}
+.navbar-brand > img{
+	width: 100px
+}
+.navbar-expand-lg .navbar-nav > li > a{
+	font-size: 12px;
+	line-height: 40px
+}
+.header-style2 .fixed-header .nav.navbar-right::before {
+	border: 25px solid;
+	left: -50px;
+}
+.slider-caption .slider-title{
+	font-size: 30px
+}
+.sub-title.box {
+    width: auto;
+}
+.service-middle, .choose-us-right {
+	display: none
+}
+.service-item{
+	text-align: center;
+	float: none;
+	padding: 0
+}
+.service-left, .service-right {
+	position: static;
+	width: 100%
+}
+.service-left h5{
+	text-align: center
+}
+.service-left, .service-right,
+.choose-resons {
+	width: 50%;
+	float: left;
+	padding: 0 15px
+}
+
+.apartment, .office, .move-in-out,
+.car-washing, .renovation, 
+.green-cleaning {
+	width: 100%;
+	float: none
+}
+.service-left .service-icon,
+.service-right .service-icon {
+	float: none;
+	margin: 0 auto
+}
+.service-left .service-item, 
+.service-right .service-item {
+    display: table;
+    float: none !important;
+    margin: 0 auto;
+    padding: 0 !important
+}
+.about-us-left .big-img {
+	display: table;
+	margin: 0 auto
+}
+.company-details .list-style-1 li {
+    width: 100%
+}
+.choose-resons {
+	text-align: center;
+}
+.choose-resons span{
+	margin: 0 auto 15px !important;
+	float: none
+}
+.choose-us-left{
+	text-align: center;
+}
+.single-project-content .list-icon li{
+	float: none
+}
+.our-history .choose-text .inner-title{
+	margin: 15px 0
+}
+.quote-image, .why-choose-us3 .bg-img,
+.our-history-right {
+	display: none
+}
+.brochure-info{
+	margin-bottom: 30px
+}
+.newsletter-form input[type="submit"] {
+	right: 16px;
+	top: 41px;
+}
+.newsletter-2 {
+	top: -55px
+}
+
+.service-sidebar .other-service li a {
+	font-size: 12px
+}
+.check-out{
+	margin-top: 45px
+}
+.quote-button {
+    position: relative !important;
+    text-align: center
+}
+.overflow-hidden-mobile {
+	overflow: hidden
+}
+}
+@media screen and (max-width:767px){
+.project-item2-hover {
+	top: 80%
+}
+.choose-us-2 {
+	padding: 50px 0
+}
+.we-are {
+	margin-top: 30px
+}
+.header-style2 .navbar-expand-lg .navbar-nav .open .dropdown-menu>li>a, 
+.main-header-3 .navbar-expand-lg .navbar-nav .open .dropdown-menu>li>a {
+    color: var(--white-theme-color);
+	background: transparent
+}
+.navbar-expand-lg .navbar-nav .open .dropdown-menu>li>a {
+	color: var(--black-theme-color)
+}
+.header-style2 .nav.navbar-right {
+	margin-right: -15px
+}
+.slider-style2 .carousel-inner > .item {
+    height: 550px;
+}
+.slider-caption{
+	width: 100%
+}
+.slider-caption p {
+	margin: 20px 0;
+}
+.newsletter-right > div {
+	display: inline-block;
+	width: 100%
+}
+.choose-resons .choose-text {
+	padding-top: 15px
+}
+
+h5, h6{
+	overflow: hidden
+}
+.dropdown-menu li a:hover{
+	background: transparent !important
+}
+.carousel-caption{
+	left: 0;
+	right: 0
+}
+.slider-caption h1{
+	font-size: 21px
+}
+.slider-style2 .carousel-caption{
+	left: auto !important;
+	transform: none !important;
+	top: 18% !important
+}
+#slider.slider-style3 .slider-caption p {
+	margin: 20px 0;
+}
+.carousel-caption .btn{
+	font-size: 12px;
+	padding: 0 20px
+}
+.owl-nav{
+	display: none !important
+}
+.sub-title{
+	width: 100%
+}
+.about-us-left .big-img {
+	width: auto;
+}
+.about-us-left .small-img {
+	right: -100px;
+	bottom: 0;
+}
+.choose-us .float-right{
+	float: none
+}
+.member-img-hover a h4{
+	font-size: 18px
+}
+.quote, .testimonials,
+.process-item {
+	padding: 60px 20px;
+}
+.company-details .list-icon li, .newsletter-2,
+.service-left, .service-right, .choose-resons {
+	width: 100%
+}
+.banner-quote .quote-button,
+.product-tab-menu .nav-tabs {
+	position: relative;
+	right: auto;
+}
+.tab-content{
+	margin-left: 0 !important
+}
+.product-tab-menu .nav-tabs > li.active > a,
+.product-tab-menu .nav-tabs li a{
+	width: auto
+}
+.woocommerce-cart-form{
+	overflow-x: scroll
+}
+.cart-form {
+	overflow-x: scroll;
+}
+.cupon .btn{
+	font-size: 12px
+}
+.service-quote-form ul li{
+	width: 100%;
+	display: inherite
+}
+.newsletter-2 {
+	top: -70px;
+}
+
+@media screen and (max-width:479px) {
+.button-group .btn-primary{
+	margin: 0
+}
+.newsletter-2 .newsletter-form input[type="submit"] {
+	right: 12px;
+}
+.news2 .col-md-5.col-sm-5 {
+	display: none;
+}
+}
+
+/*-------- Media query for Mobile Portrait View -----------*/
+@media screen and (orientation:portrait) {
+.video-right {
+	height: 220px
+}
+.btn {
+	padding: 0 20px
+}
+.gallery-section .column {
+	margin-bottom: 15px;
+}
+.pagination > li > a, .pagination > li > span {
+	margin-left: 5px
+}
+}	
+/*------------ Media Query for mobile landscape Screen -----------*/
+@media screen and (max-width: 767px) and (min-width: 360px) {
+	@media screen and (orientation:landscape) {
+		 .big-img {
+			width: 70%;
+			height: auto;
+			margin: 0 auto
+		}
+		 .small-img {
+			right: 100px
+		}
+		.carousel-inner .item > img {
+			height: 100%;
+			width: auto;
+		}
+		 .filter-list {
+		 display: inline-block;
+		 margin-left: -7.5px;
+		 margin-right: -7.5px
+		}
+		 .filter-list div.col-sm-6 {
+		 width: 50%;
+		 float: left;
+		 padding: 0 7.5px;
+		 margin-bottom: 15px
+		}
+		.photo-gallery a {
+		 width: 22%
+		}
+	}
+}
