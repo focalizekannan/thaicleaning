@@ -1258,9 +1258,9 @@ textarea.form-control {
 	right: 0
 }
 .service-icon {
-	/* border: 10px solid; 
+	 border: 10px solid; 
 	height: 100px;
-	width: 100px */
+	width: 100px
 }
 .service-icon span:before{
 	line-height: 80px
@@ -1269,14 +1269,15 @@ textarea.form-control {
 	line-height: 100px;
 	text-align: right;
 	float: right;
-	margin: 0 55px 0 0;
-	/* margin: 0 */
+	/* margin: 0 55px 0 0; */
+	margin: 0
 }
 .service-right .service-item .inner-title{
 	line-height: 100px;
 	text-align: left;
 	float: left;
-	margin: 0 0 0 55px;
+	margin: 0;
+	/* margin: 0 0 0 55px; */
 }
 /*====================================================================
 8.1 Service2 Section css
