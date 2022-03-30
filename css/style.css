@@ -1,14 +1,3 @@
-/**
-	
-* Template Name: Uwash - Cleaning Service Company HTML5 Template
-* Version: 1.0.6
-* Author: Unicoder
-* Email: support@unicoderbd.com
-* Developed By: Unicoder
-* Last Update: 21th May, 2018
-* Author URL: www.unicoderbd.com
-
-**/
 
 /*===================================================
 Table of CSS Content arrage with every section name
@@ -1283,7 +1272,8 @@ textarea.form-control {
 8.1 Service2 Section css
 ====================================================================*/
 .our-service2 .service-item{
-	padding: 40px 30px
+	padding: 40px 30px;
+	height: 100%;
 }
 .our-service2 .service-icon{
 	float: inherit;
