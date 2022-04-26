@@ -28,6 +28,16 @@
 																			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 																			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 																			<![endif]-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M2HDX9MR6G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M2HDX9MR6G');
+</script>                                      
   </head>
   <body class="page-load">
     <!-- Preloader start -->
@@ -133,49 +143,49 @@
                 </div>
               </div>
               <div class="col-lg-8">
-                <form action="#" method="post" class="service-quote-form form-2 icon-gray mt-md-30">
+                <form action="appoinment.php" method="post" enctype="multipart/form-data" class="service-quote-form form-2 icon-gray mt-md-30">
                   <div class="row">
                     <div class="col-md-12">
                       <h4 class="inner-title mt-30">Get A Quote</h4>
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input type="text" class="form-control" name="name" value="" placeholder="Name">
+                        <input type="text" class="form-control" name="name" required value="" placeholder="Name">
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input type="text" class="form-control" name="phone" value="" placeholder="Phone Number">
+                        <input type="text" class="form-control" name="mobile" required value="" placeholder="Phone Number">
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input type="text" class="form-control" name="email" value="" placeholder="Email Address">
+                        <input type="text" class="form-control" name="email" required value="" placeholder="Email Address">
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input type="text" class="form-control" name="Location" value="" placeholder="Location">
+                        <input type="text" class="form-control" name="location" required value="" placeholder="Location">
                       </div>
                     </div>
                     <div class="col-md-12">
                       <div class="select-icon">
-                        <select class="form-control">
+                        <select class="form-control" name="subject" required>
                           <option value="none" selected disabled hidden>Select</option>
-                          <option value="">Store Maintenance</option>
-                          <option value="">Property Maintenance</option>
-                          <option value="">Restaurant & Kitchen Cleaning</option>
-                          <option value="">Post Construction Cleaning</option>
-                          <option value=""> Power Wash, Carpet Steam Cleaning</option>
-                          <option value="">Office Maintenance</option>
+                          <option value="Store Maintenance">Store Maintenance</option>
+                          <option value="Property Maintenance">Property Maintenance</option>
+                          <option value="Restaurant & Kitchen Cleaning">Restaurant & Kitchen Cleaning</option>
+                          <option value="Post Construction Cleaning">Post Construction Cleaning</option>
+                          <option value="Power Wash, Carpet Steam Cleaning"> Power Wash, Carpet Steam Cleaning</option>
+                          <option value="Office Maintenance">Office Maintenance</option>
                         </select>
                       </div>
                     </div>
                     <div class="col-md-12" style="margin-top: 20px;">
-                      <textarea class="form-control" rows="6" placeholder="Your Message..."></textarea>
+                      <textarea class="form-control" required rows="6" name="message" placeholder="Your Message..."></textarea>
                     </div>
                     <div class="col-md-12" style="margin-top: 20px;">
-                      <a class="btn btn-primary" href="#">Submit</a>
+                      <input class="btn btn-primary my-3" type="submit" value="Send" />
                     </div>
                   </div>
                 </form>
